@@ -1,0 +1,37 @@
+.mgtop {
+  margin-top: 10px;
+}
+
+.mgbottom {
+  margin-bottom: 0px;
+}
+
+.mgbottom-05 {
+  margin-bottom: 0.5rem;
+}
+
+.mb100 {    
+  text-align: center;
+}
+
+.wm100{
+  width: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+@media (max-width: 576px) {
+  .mb01 {
+    width: 80px; /* largura para dispositivos móveis */
+  }
+
+  .mb100 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dpbox {
+    width: 100%;      
+  }
+}

@@ -1,0 +1,73 @@
+/* RelatorioGerencial.css */
+#gerente-select,
+#vendedor-select,
+#status-select,
+#uf-select,
+#ano-select,
+#moeda-select,
+#mes-select {
+  color: black;
+}
+
+.badge-danger {
+  background: #FF4747;
+}
+.badge-warning {
+  background: #FFC100;
+}
+.badge-success {
+  background: #57B657;
+}
+.badge-info {
+  background: #248AFD;
+}
+.div20 {
+  width: 20%;
+  margin: 3px;
+}
+.div25 {
+  width: 25%;
+  margin: 3px;
+}
+.div30 {
+  width: 30%;
+  margin: 3px;
+}
+
+.btnsz{
+  width: 135px;
+  height: 38px;
+}
+
+.cabecalho{
+  display:flex;
+   justify-content:space-between
+}
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 991px) {
+  .txt-mob {
+    min-width: 85px;
+  }
+}
+@media (max-width: 767px) {
+  .div20 {
+    width: 100%;
+  }
+  .div25 {
+    width: 100%;
+  }
+  .div30 {
+    width: 100%;
+  }
+  .cabecalho{
+    display:contents;
+  }
+  .cel100{
+    width: 100%;
+  }
+  .pd0m{
+    padding:0;
+  }
+}

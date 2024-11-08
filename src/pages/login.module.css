@@ -1,0 +1,91 @@
+/* login.module.css */
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1c1c1c, #2d3a4b);
+  color: #ffffff;
+}
+
+.loginBox {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.iconContainer {
+  margin-bottom: 20px;
+}
+
+.cameraIcon {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  background: url('https://eletrofrio.com.br/wp-content/uploads/2018/05/logo-footer.png') no-repeat center center;
+  background-size: contain;
+}
+
+h1 {  
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  margin-bottom: 15px;
+}
+
+.inputContainer label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.optionsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.optionsContainer label {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.forgotPassword {
+  font-size: 14px;
+  color: #d1d1d1;
+  text-decoration: none;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1f6feb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #105dcf;
+}
